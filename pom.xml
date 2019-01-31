@@ -60,13 +60,13 @@
     <repository>
         <id>deployment</id>
         <name>Internal Release1</name>
-        <url>http://10.142.0.4:8081/repository/releases/</url>
+        <url>http://10.142.0.2:8081/nexus/content/repositories/testreport</url>
     </repository>
 
     <snapshotRepository>
         <id>deployment</id>
         <name>Internal Releases</name>
-        <url>http://10.142.0.4:8081/repository/snapshots/</url>
+        <url>http://10.142.0.2:8081/nexus/content/repositories/testrepoSnap</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
